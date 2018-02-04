@@ -25,4 +25,5 @@ environments. For this reason there are no libraries that need to be installed
 and none were used in the script. It uses the second line in the csv to
 determine the first character of each line. When this condition is not met it
 knows that there is a carriage return in the line. It then bonds the line with
-the previous line.
+the previous line. After running the program will give you the line numbers of
+'bad rows' in the original file.
